@@ -1,0 +1,112 @@
+body {
+    font-family: "Calibri";
+    width: auto;
+}
+
+.i1 {
+    background-color: rgb(19, 19, 185);
+    width: 100%;
+    height: 50px;
+}
+
+.i2 {
+    display: inline;
+} 
+
+@media (max-width: 560px) {
+    .i1 {
+        height: 100px;
+    }
+}
+
+ul {
+    margin-right: 0; 
+    margin-top: 0; 
+    margin-left: 0; 
+    margin-bottom: 0; 
+    padding: 0; 
+}
+
+li {
+    float: left; 
+    text-decoration: none; 
+    list-style: none; 
+    text-align: center;
+    margin-left: 30px;
+}
+
+input {
+    margin-left: 20px; 
+    width: 140px; 
+    height: 20px; 
+    margin-top: 10px; 
+} 
+
+a { 
+    text-decoration: none; 
+    color: rgb(207, 24, 24); 
+    float: right;
+    margin-right: 30px;
+    font-size: 30px;
+    padding-top: 10px;
+} 
+
+.i3 {
+    background-image: url(Kartinka.jpg) ;
+    background-size: auto;
+    height: 250px;
+    background-position: center;
+
+}
+
+.qwe {
+    font-size: 30px;
+    margin-left: 30px;
+    color: crimson;
+}
+
+h5 {
+    color: grey;
+}
+
+.i4 {
+    width: 100%;
+    height: 200px;
+}
+
+.i5 {
+    width: 31%;
+    height: 200px;
+    background-color: rgb(19, 19, 185);
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.i6 {
+    color: white;
+    text-align: center;
+}
+
+.i7 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.i8 {
+    width: 22%;
+    height: 150px;
+    background-color: rgb(19, 19, 185);
+    float: left;
+    margin-left: 20px;  
+    margin-top: 20px; 
+}
+
+.i9 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
